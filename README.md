@@ -7,6 +7,7 @@ Conventions:
 
 1. The visualization code itself will be stored in `app.js`.
 2. All of the included JS files are local, and linked without version numbers (RequireJS style).
+3. The structure and JS library includes are as simple as possible (using script tags instead of RequireJS, not relying on any build tools).
 
 To create a new project with this template, navigate to the directory that you want the project in and run:
 ```
